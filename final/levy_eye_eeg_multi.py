@@ -31,19 +31,26 @@ from mpl_toolkits.mplot3d import Axes3D  # noqa: F401 (needed for 3D plots)
 # Put all your eye-tracking files here in the order you like
 EYE_FILES = [
     # Example (you already have this one):
-    "Angel1-levy-flight-eyeTr-2025-12-02-13-13-12.csv",
-    # Add the other 8 runs:
-    # "Angel2-....csv",
-    # "Angel3-....csv",
-    # ...
+    "vid1_A/Angel1-levy-flight-eyeTr-2025-12-02-13-13-12.csv",
+    "vid1_B/Iago-levy-flight-eyeTr-2025-12-02-13-18-19.csv",
+    "vid1_C/Ravi-levy-flight-eyeTr-2025-12-02-13-22-45.csv",
+    "vid1_D/Seth-levy-flight-eyeTr-2025-12-02-13-29-08.csv",
+    "vid2_A/SETH2-levy-flight-eyeTr-2025-12-02-13-35-06.csv",
+    "vid2_C/Iago2-levy-flight-eyeTr-2025-12-02-13-42-21.csv",
+    "vid2_D/Ravi2-levy-flight-eyeTr-2025-12-02-13-46-15.csv",
+    
 ]
 
 # Optionally, matching EEG files (same length or same time base)
 # Keep as [] for now if you just want gaze analysis
 EEG_FILES = [
-    # Example:
-    # "brainbit_20251202_130931.csv",
-    # ...
+    "vid1_A/brainbit_20251202_130931.csv",
+    "vid1_B/brainbit_20251202_131634.csv",
+    "vid1_C/brainbit_20251202_132059.csv",
+    "vid1_D/brainbit_20251202_132751.csv",
+    "vid2_A/brainbit_20251202_133227.csv",
+    "vid2_C/brainbit_20251202_134127.csv",
+    "vid2_D/brainbit_20251202_134419.csv",
 ]
 
 OUTPUT_DIR = Path("levy_outputs")
